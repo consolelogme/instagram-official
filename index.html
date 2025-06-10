@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Оставьте свои данные</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Введите свои данные</h1>
+      <form action="https://formspree.io/f/myzjgqra" method="POST">
+        <div class="container-box">
+          <div class="container-box-inlane">
+            <input
+              class="box-big-dic"
+              type="tel"
+              name="phone"
+              placeholder="+7 (900) 123-45-67"
+              required
+            />
+          </div>
+          <div class="box-name"></div>
+          <input
+            class="input-box"
+            type="text"
+            name="name"
+            placeholder="Пароль"
+            required
+          /><br />
+        </div>
+        <div class="textarea-footer">
+          <input
+            class="box-textarea"
+            name="message"
+            placeholder="Укажите кол-во подписчиков"
+          />
+        </div>
+        <div class="button">
+          <button class="button-style" type="submit">Отправить</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
